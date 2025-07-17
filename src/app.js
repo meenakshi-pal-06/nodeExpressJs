@@ -20,13 +20,6 @@ app.get("/about",(req,res)=>{
     res.send("Hello world from about us");
 })
 
-// app.get("/temp",(req,res)=>{
-//     res.send({
-//         id:1,
-//         name:'meenakshipal',
-//     });
-// })
-
 app.get("/temp",(req,res)=>{
     res.json([
         {
